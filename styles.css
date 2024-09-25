@@ -10,11 +10,25 @@ body {
     text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+.container {width: 80%;
+    margin: 50px auto;
     padding: 20px;
+    background-color: white;
+    border: 5px solid #ff69b4; /* Marco de color rosa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
+
+h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #ff69b4; /* Línea rosa */
+    margin: 10px auto;
+    border-radius: 2.5px;
+}
+
 
 header {
     margin-bottom: 20px;
