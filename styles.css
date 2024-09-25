@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 100px;
     margin: 50px auto; /* Agregado margen superior */
     padding: 20px;
     background-color: white;
@@ -35,7 +35,7 @@ header h1 {
 header h1::after {
     content: "";
     display: block;
-    width: 100px;
+    width: 10px;
     height: 50px;
     background-color: #ff69b4; /* Línea rosa */
     margin: 10px auto;
