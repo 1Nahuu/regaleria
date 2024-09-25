@@ -35,8 +35,8 @@ header h1 {
 header h1::after {
     content: "";
     display: block;
-    width: 100px;
-    height: 5px;
+    width: 1000px;
+    height: 50px;
     background-color: #ff69b4; /* Línea rosa */
     margin: 10px auto;
     border-radius: 2.5px;
