@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 10px;
+    max-width: 100px;
     margin: 50px auto; /* Agregado margen superior */
     padding: 20px;
     background-color: white;
