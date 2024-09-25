@@ -62,12 +62,12 @@ ul li a:hover {
 }
 
 footer {
-    margin-top: 1000px;
+    margin-top: 100px;
 }
 
 
 footer img {
     width: 100%;
-    max-height: 400px;
+    max-height: 4000px;
     object-fit: cover;
 }
